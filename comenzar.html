@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comenzar</title>
+    <link rel="stylesheet" href="comenzarstyle.css" />
+</head>
+<body>
+    <img id="fondo" src="fondocomenzar.jpg"/>
+    <section class="coberturafondo"></section>
+    <section class="cabeceraoscura"></section>
+    <img id="logo" src="c9cc2866-a7c9-4d78-95a9-59de6278ad94.jpg"/>
+    <a href="file:///C:/Users/edwar/Desktop/Pagina%20Web%20Recomenbar/Principal.html" id="titulocomenzar">RECOMENBAR</a>
+
+    <section class="cabecera2">
+        <a href="file:///C:/Users/edwar/Desktop/Pagina%20Web%20Recomenbar/Principal.html">Home</a> &nbsp;&nbsp;
+        <a href="file:///C:/Users/edwar/Desktop/Pagina%20Web%20Recomenbar/Principal.html">Contacto</a>   
+    </section>
+
+    <p id="titulocomenzar2">¡COMIENZA AHORA!</p>
+
+    <ul class="menu">
+      <div class="menuToggle"><ion-icon name="add-outline"></ion-icon></div>
+      <li style="--i: 0; --clr: #ff2972">
+        <a href="#"><ion-icon name="heart-outline"></ion-icon></a>
+      </li>
+      <li style="--i: 1; --clr: #fee800">
+        <a href="file:///C:/Users/edwar/Desktop/Pagina%20Web%20Recomenbar/Principal.html"><ion-icon name="home-outline"></ion-icon></a>
+      </li>
+      <li style="--i: 2; --clr: #04fc43">
+        <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+      </li>
+      <li style="--i: 3; --clr: #fe00f1">
+        <a href="#"><ion-icon name="ticket-outline"></ion-icon></a>
+      </li>
+      <li style="--i: 4; --clr: #00b0fe">
+        <a href="#"><ion-icon name="mail-outline"></ion-icon></a>
+      </li>
+      <li style="--i: 5; --clr: #fea600">
+        <a href="#"><ion-icon name="information-circle-outline"></ion-icon></a>
+      </li>
+      <li style="--i: 6; --clr: #a529ff">
+        <a href="#"><ion-icon name="person-outline"></ion-icon></a>
+      </li>
+      <li style="--i: 7; --clr: #01bdab">
+        <a href="#"><ion-icon name="earth-outline"></ion-icon></a>
+      </li>
+    </ul>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script>
+      let menuToggle = document.querySelector(".menuToggle");
+      let menu = document.querySelector(".menu");
+      menuToggle.onclick = function () {
+        menu.classList.toggle("active");
+      };
+    </script>
+    
+</body>
+</html>

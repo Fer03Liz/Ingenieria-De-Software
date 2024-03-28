@@ -46,7 +46,8 @@ body {
 }
 
 .cabecera1 a:hover {
-    color: blueviolet;
+    color: white(234, 0, 255);
+    text-shadow: 0 1px 10px rgb(234, 0, 255);
 }
 
 #logo {
@@ -101,10 +102,10 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 }
 
-#articulo1 p.comenzarvision{
+#articulo1 a.comenzarvision{
     position: absolute;
     left: 49%;
-    top: 460px;
+    top: 500px;
     border-style: solid;
     border-radius: 8px;
     border-color: rgba(0, 0, 0,0.3);
@@ -113,6 +114,7 @@ body {
     background: white;
     color: black;
     text-shadow: 3px 5px 5px rgba(3, 3, 3, 0.822);
+    text-decoration: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -234,7 +236,8 @@ article p.texmem2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-article p.botonmem2 {
+article a.botonmem2 {
+    color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background: linear-gradient(135deg, #007f7f, #00bfbf, #00ffff, #00bfbf, #007f7f);
     border-radius: 5px;
@@ -245,10 +248,11 @@ article p.botonmem2 {
     bottom: 10px;
     padding: 5px;
     text-align: center;
+    text-decoration: none;
     text-shadow: 3px 5px 5px rgba(3, 3, 3, 0.822);
 }
 
-article p.botonmem2:hover {
+article a.botonmem2:hover {
     background: black;
     color: white;
     box-shadow: 0 1px 10px rgba(1, 39, 255, 0.979);
@@ -282,7 +286,8 @@ article p.texmem3 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-article p.botonmem3 {
+article a.botonmem3 {
+    color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background: linear-gradient(135deg, #800080, #a100c1, #c300ff, #9b36ff, #743aff, #552eff, #3623ff, #1a12ff, #0000ff);
     border-radius: 5px;
@@ -293,10 +298,11 @@ article p.botonmem3 {
     bottom: 10px;
     padding: 5px;
     text-align: center;
+    text-decoration: none;
     text-shadow: 3px 5px 5px rgba(3, 3, 3, 0.822);
 }
 
-article p.botonmem3:hover {
+article a.botonmem3:hover {
     background: black;
     color: white;
     box-shadow: 0 1px 10px rgb(252, 0, 231);
