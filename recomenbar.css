@@ -1,0 +1,374 @@
+body {
+    background-color: black;
+}
+
+.cabecera2 {
+    display: inline;
+    position: absolute;
+    left: 89%;
+    top: 25px;    
+}
+
+.cabecera2 a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+    border-radius: 6px;
+    padding: 7px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifs;
+}
+.cabecera2 a:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 1px 10px rgb(234, 0, 255);
+}
+
+.cabecera1 {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.cabecera1 a {
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: absolute;
+    display: inline;
+    position: absolute;
+    top: 18px;
+    left: 62px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+.cabecera1 a:hover {
+    color: blueviolet;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+    display: inline;
+}
+
+#imagen1{
+    width: 100%;
+    height: 800px;
+    border-style: solid;
+    border-color: rgb(0, 255, 255);
+    border-radius: 5px;
+
+}
+
+#articulo1 {
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 65px;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+#articulo1 p.titulovision {
+    color: black;
+    display: inline;
+    position: absolute;
+    top: 30px;
+    left: 37%;
+    font-size: 80px;
+    text-shadow: 3px 5px 4px rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#articulo1 p.vision{
+    color: rgba(255, 255, 255,0.7);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 55%;
+    font-size: 30px;
+    position: absolute;
+    top: 260px;
+    left: 23%;
+    text-align: center;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.01);
+    border-radius: 5px;
+    box-shadow: 0 1px 70px rgb(255, 255, 255);
+    text-shadow: 3px 5px 5px rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+#articulo1 p.comenzarvision{
+    position: absolute;
+    left: 49%;
+    top: 460px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgba(0, 0, 0,0.3);
+    padding: 5px;
+    font-size: 22px;
+    background: white;
+    color: black;
+    text-shadow: 3px 5px 5px rgba(3, 3, 3, 0.822);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#articulo1 p.comenzarvision:hover{
+    background-color: #efefef;
+    cursor: pointer;
+}
+
+#imagen2 {
+    width: 98%;
+    height: 788px;
+    position: absolute;
+    left: 20px;
+    top: 880px;   
+
+}
+
+.membresias {
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-style: solid;
+    border-radius: 5px;
+    border-color: aqua;
+}
+
+section p.elijemembresia {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 25px;
+    top: 850px;
+    text-shadow: 3px 5px 5px rgb(255, 255, 255); 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 3px 5px 5px rgb(255, 255, 255);
+}
+
+section p.elijemembresia:hover {
+    box-shadow: 3px 5px 5px rgb(211, 14, 14);
+    color: red;
+}
+
+section article.membresia1 {
+    color: black;
+    background-color: #efefef;
+    position: absolute;
+    top: 1100px;
+    left: 180px;
+    height: 300px;
+    width: 230px;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: #efefef;
+}
+
+article p.titulomem1 {
+    margin-bottom: 0;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    text-shadow: 3px 5px 5px rgba(3, 3, 3, 0.822); 
+}
+
+article p.texmem1 {
+    margin-top: 0;
+    text-align: left;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+article p.botonmem1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    box-shadow: 0 3px 10px rgb(234, 0, 255);
+    width: 80px;
+    position: absolute;
+    left: 72px;
+    bottom: 5px;
+    padding: 3px;
+    text-align: center;
+    text-shadow: 3px 5px 5px rgba(3, 3, 3, 0.822);
+}
+
+article p.botonmem1:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 1px 10px rgb(234, 0, 255);
+    cursor: pointer;
+}
+
+section article.membresia2 {
+    color: white;
+    background: linear-gradient(135deg, #b30086, #ff007f, #ff00bf, #ff00ff, #ff00bf, #ff007f, #b30086);
+    position: absolute;
+    top: 1100px;
+    left: 600px;
+    height: 400px;
+    width: 230px;
+    border-radius: 7px;
+
+}
+
+article p.titulomem2 {
+    margin-bottom: 0;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    text-shadow: 3px 5px 5px rgba(3, 3, 3, 0.822); 
+}
+
+article p.texmem2 {
+    margin-top: 0;
+    text-align: left;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+article p.botonmem2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(135deg, #007f7f, #00bfbf, #00ffff, #00bfbf, #007f7f);
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(234, 0, 255);
+    width: 80px;
+    position: absolute;
+    left: 72px;
+    bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    text-shadow: 3px 5px 5px rgba(3, 3, 3, 0.822);
+}
+
+article p.botonmem2:hover {
+    background: black;
+    color: white;
+    box-shadow: 0 1px 10px rgba(1, 39, 255, 0.979);
+    cursor: pointer;
+}
+
+section article.membresia3 {
+    color: white;
+    background: linear-gradient(135deg, #0000b3, #0000ff, #007fff, #00bfff, #00ffff, #00bfff, #007fff, #0000ff, #0000b3);
+    position: absolute;
+    top: 1100px;
+    left: 1020px;
+    height: 500px;
+    width: 230px;
+    border-radius: 7px;
+
+}
+
+article p.titulomem3 {
+    margin-bottom: 0;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    text-shadow: 3px 5px 5px rgba(3, 3, 3, 0.822); 
+}
+
+article p.texmem3 {
+    margin-top: 0;
+    text-align: left;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+article p.botonmem3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(135deg, #800080, #a100c1, #c300ff, #9b36ff, #743aff, #552eff, #3623ff, #1a12ff, #0000ff);
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(234, 0, 255);
+    width: 80px;
+    position: absolute;
+    left: 72px;
+    bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    text-shadow: 3px 5px 5px rgba(3, 3, 3, 0.822);
+}
+
+article p.botonmem3:hover {
+    background: black;
+    color: white;
+    box-shadow: 0 1px 10px rgb(252, 0, 231);
+    cursor: pointer;
+}
+
+#sombramembresias {
+    width: 98.5%;
+    height: 796px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 875px;
+    left: 15px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #00ffff;
+}
+
+footer p{
+    display: inline;
+    margin: 0;
+    position: absolute;
+    top: 1715px;
+    left: 40px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+footer p:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 1px 10px rgb(234, 0, 255);
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    padding: 3px;
+}
+
+footer section{
+    position: absolute;
+    left: 74%;
+    top: 1715px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer a:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 1px 10px rgb(234, 0, 255);
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    padding: 3px;
+
+}
+
+footer label{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
