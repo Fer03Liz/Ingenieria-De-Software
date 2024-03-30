@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Busqueda</title>
+    <link rel="stylesheet" href="espacioBusquedastyle.css">
+    
+</head>
+<body>
+    <section class="cabeceraoscura"></section>
+    <img id="logo" src="c9cc2866-a7c9-4d78-95a9-59de6278ad94.jpg"/>
+    <a href="file:///C:/Users/edwar/Desktop/Pagina%20Web%20Recomenbar/Principal.html" id="titulocomenzar">RECOMENBAR</a>
+
+    <section class="cabecera2">
+        <a href="file:///C:/Users/edwar/Desktop/Pagina%20Web%20Recomenbar/Principal.html">Home</a> &nbsp;&nbsp;
+        <a href="file:///C:/Users/edwar/Desktop/Pagina%20Web%20Recomenbar/Principal.html">Contacto</a>   
+    </section>
+    <p id="perfil">PERFIL</p>
+    <p id="acercade">ACERDA DE</p>
+    <a href="file:///C:/Users/edwar/Desktop/Pagina%20Web%20Recomenbar/comenzar.html#" id="comenzar">COMENZAR</a>
+
+    <section id="barrabusqueda"></section>
+    <p id="p1b">Discotecas</p>
+    <p id="p2b">Bares</p>
+    <p id="p3b">Gastrobares</p>
+    <p id="p4b">Ubicaciones</p>
+    <p id="p5b">eventos</p>
+
+    <div class="search-container">
+        <form action="/buscar" method="get">
+            <input type="text" placeholder="Escribe aqui..." name="q">
+            <button type="submit" style="--i: 1; --clr: #fee800"><ion-icon name="search-outline"></button>
+        </form>
+    </div>
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <article id="barralateral">
+        <p class="pl1">RECOMENDADOS</p><br><br>
+        <p class="pl2">Solo</p><br>
+        <p class="pl3">Acompañado</p><br>
+        <p class="pl4">Top</p><br><br>
+        <p class="pl5">GENEROS</p><br><br>
+        <p class="pl6">Reggaeton</p><br>
+        <p class="pl7">Salsa</p><br>
+        <p class="pl8">Bachata</p><br>
+        <p class="pl9">Bailable</p><br>
+        <p class="pl10">Electronica</p><br><br>
+        <p class="pl11">NOTICIAS</p><br><br>
+        <p class="pl12">Nuevos Eventos</p><br>
+        <p class="pl13">Nuevas Discotecas</p><br>
+        <p class="pl14">Nuevos Gastrobares</p><br>
+    </article>
+
+    <section id="fondooscuroslider1">
+        <img src="novedades1.jfif" class="mini1">
+        <img src="novedades2.jpg" class="mini2">
+        <img src="fondocomenzar.jpg" class="mini3">
+        <p class="pmini">Eventos Interesantes¡ :  Miralos</p>
+        <p class="pmini2"><span id="span1">C</span><span id="span2" >O</span><span id="span3">P</span><span id="span4">$</span>10.000</p>
+    </section>
+
+    <section id="fondooscuroslider2">
+        <img src="banerbachata.jpg" class="mini1">
+        <img src="banersalsa.jpg" class="mini2">
+        <img src="banervariada.jpg" class="mini3">
+        <p class="pmini">Generos Para elegir¡ :  Escoge</p>
+        <p class="pmini2"><span id="span1">C</span><span id="span2" >O</span><span id="span3">P</span></p>
+    </section>
+
+    <section id="fondooscuroslider3">
+        <img src="beneficios1.jpg" class="mini1">
+        <img src="beneficios2.jpg" class="mini2">
+        <img src="beneficios3.jpg" class="mini3">
+        <p class="pmini">Descuentos y Consumibles¡ :  compra</p>
+        <p class="pmini2"><span id="span1">C</span><span id="span2" >O</span><span id="span3">P</span><span id="span4">$</span>30.000</p>
+    </section>
+
+    <div class="slider-de-imagenes" id="slider1">
+        <div class="imagenes">
+            <img src="novedades1.jfif" alt="Imagen 1">
+            <img src="novedades2.jpg" alt="Imagen 2">
+            <img src="fondocomenzar.jpg" alt="Imagen 3">
+        </div>
+        <button class="anterior" onclick="anteriorImagen('slider1')">&#10094;</button>
+        <button class="siguiente" onclick="siguienteImagen('slider1')">&#10095;</button>
+    </div>
+
+   
+    <div class="slider-de-imagenes" id="slider2">
+        <div class="imagenes">
+            <img src="banerbachata.jpg" alt="Imagen 1">
+            <img src="banersalsa.jpg" alt="Imagen 2">
+            <img src="banervariada.jpg" alt="Imagen 3">
+        </div>
+        <button class="anterior" onclick="anteriorImagen('slider2')">&#10094;</button>
+        <button class="siguiente" onclick="siguienteImagen('slider2')">&#10095;</button>
+    </div>
+
+ 
+    <div class="slider-de-imagenes" id="slider3">
+        <div class="imagenes">
+            <img src="beneficios3.jpg" alt="Imagen 1">
+            <img src="beneficios2.jpg" alt="Imagen 2">
+            <img src="beneficios1.jpg" alt="Imagen 3">
+        </div>
+        <button class="anterior" onclick="anteriorImagen('slider3')">&#10094;</button>
+        <button class="siguiente" onclick="siguienteImagen('slider3')">&#10095;</button>
+    </div>
+
+    <script src="pasarImg.js"></script>
+</body>
+<footer>
+    <p>COPYRIGHT 2024</p>
+    <section>
+        <a href="file:///C:/Users/edwar/Desktop/Pagina%20Web%20Recomenbar/Principal.html"> INICIO</a>&nbsp;&nbsp;&nbsp;
+        <label for="contacto">CONTACTO:</label>
+        <a id="contacto" href="mailto:edwardquintero2004@gmail.com">edwardquintero2004@gmail.com</a>
+    </section>
+</footer>
+</html>

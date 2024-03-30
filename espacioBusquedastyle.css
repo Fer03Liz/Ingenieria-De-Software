@@ -1,0 +1,508 @@
+body{
+    background:linear-gradient(135deg, #2e0854, #4b0082);
+}
+
+.cabeceraoscura{
+    position: absolute;
+    top: 10px;
+    width: 1500px;
+    height: 100px;
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  #logo{
+    position: absolute;
+    top: 24px;
+    left: 20px;
+    height: 70px;
+    width: 70px;
+    display: inline;
+  }
+
+  #titulocomenzar{
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: absolute;
+    display: inline;
+    position: absolute;
+    top: 40px;
+    left: 105px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+  }
+
+  #titulocomenzar:hover{
+    color: white(234, 0, 255);
+    text-shadow: 0 1px 10px rgb(234, 0, 255);
+  }
+
+  .cabecera2 {
+    display: inline;
+    position: absolute;
+    left: 88%;
+    top: 40px;    
+}
+
+.cabecera2 a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+    border-radius: 6px;
+    padding: 7px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifs;
+}
+.cabecera2 a:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 1px 10px rgb(234, 0, 255);
+}
+
+#perfil{
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: absolute;
+    display: inline;
+    position: absolute;
+    top: 40px;
+    left: 290px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+#perfil:hover{
+    color: white(234, 0, 255);
+    text-shadow: 0 1px 10px rgb(234, 0, 255);
+    cursor: pointer;
+}
+
+#acercade{
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: absolute;
+    display: inline;
+    position: absolute;
+    top: 40px;
+    left: 410px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    
+}
+
+#acercade:hover{
+    color: white(234, 0, 255);
+    text-shadow: 0 1px 10px rgb(234, 0, 255);
+    cursor: pointer;
+}
+
+#comenzar{
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: absolute;
+    display: inline;
+    position: absolute;
+    top: 40px;
+    left: 570px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;  
+}
+
+#comenzar:hover{
+    color: white(234, 0, 255);
+    text-shadow: 0 1px 10px rgb(234, 0, 255);
+    cursor: pointer;
+}
+
+#barrabusqueda{
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    width: 700px;
+    height:35px;
+    background: linear-gradient(135deg, #800080, #a100c1, #c300ff, #9b36ff, #743aff, #552eff, #3623ff, #1a12ff, #0000ff);
+    box-shadow: 0 1px 10px black;
+}
+
+#p1b{
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: absolute;
+    display: inline;
+    position: absolute;
+    top: 160px;
+    left: 470px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px; 
+}
+
+#p2b{
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: absolute;
+    display: inline;
+    position: absolute;
+    top: 160px;
+    left: 570px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px; 
+}
+
+#p3b{
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: absolute;
+    display: inline;
+    position: absolute;
+    top: 160px;
+    left: 640px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px; 
+}
+
+#p4b{
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: absolute;
+    display: inline;
+    position: absolute;
+    top: 160px;
+    left: 750px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px; 
+}
+
+#p5b{
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: absolute;
+    display: inline;
+    position: absolute;
+    top: 160px;
+    left: 860px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px; 
+}
+
+#p1b:hover{
+    color: white(234, 0, 255);
+    text-shadow: 0 1px 10px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#p2b:hover{
+    color: white(234, 0, 255);
+    text-shadow: 0 1px 10px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#p3b:hover{
+    color: white(234, 0, 255);
+    text-shadow: 0 1px 10px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#p4b:hover{
+    color: white(234, 0, 255);
+    text-shadow: 0 1px 10px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#p5b:hover{
+    color: white(234, 0, 255);
+    text-shadow: 0 1px 10px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.search-container {
+    position: absolute;
+    top: 153.5px;
+    left: 945px;
+    text-align: center;
+}
+.search-container input[type="text"] {
+    padding: 4px;
+    padding-left: 25px;
+    width: 140px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.search-container button[type="submit"] {
+    padding: 4px 13px;
+    background-color: #00ffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;  
+}
+
+.search-container button[type="submit"]:hover{
+    background-color: #3195e7;
+    color: #00ffff;
+}
+
+#barralateral{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: inline;
+    position: absolute;
+    top: 230px;
+    left: 250px;
+    height: 400px;
+    width: 200px;
+}
+
+article p{
+    color: rgb(62, 2, 158);
+    display: inline;
+    padding-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+article p:hover{
+    color: white;
+    text-shadow: 0 1px 10px rgb(234, 0, 255);
+    cursor: pointer;
+}
+
+article p.pl1{
+    color: #6d12ff;
+    cursor: default;
+}
+
+article p.pl5{
+    color: #6d12ff;
+    cursor: default;
+}
+
+article p.pl11{
+    color: #6d12ff;
+    cursor: default;
+}
+
+#slider1 {
+    position: absolute;
+    top: 220px;
+    left: 450px;
+}
+
+#slider2 {
+    position: absolute;
+    top: 550px;
+    left: 450px;
+}
+
+#slider3 {
+    position: absolute;
+    top: 880px;
+    left: 450px;
+}
+
+.imagenes {
+    display: flex;
+    overflow: hidden;
+    width: 450px;
+    height: 300px;
+}
+
+.imagenes img {
+    width: 100%;
+    display: none;
+}
+
+.imagenes img:first-child {
+    display: block;
+}
+
+button.anterior, button.siguiente {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button.anterior {
+    left: 0;
+}
+
+button.siguiente {
+    right: 0;
+}
+
+#fondooscuroslider1{
+    position: absolute;
+    top: 220px;
+    left: 450px;
+    width: 700px;
+    height:300px;
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 1px 10px black;
+}
+
+#fondooscuroslider2{
+    position: absolute;
+    top: 550px;
+    left: 450px;
+    width: 700px;
+    height:300px;
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 1px 10px black;
+}
+
+#fondooscuroslider3{
+    position: absolute;
+    top: 880px;
+    left: 450px;
+    width: 700px;
+    height:300px;
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 1px 10px black;
+}
+
+.mini1{
+    position: absolute;
+    top: 35px;
+    left: 454px;
+    width: 150px;
+    height: 100px;
+}
+
+.mini2{
+    position: absolute;
+    top: 60px;
+    left: 545px;
+    width: 150px;
+    height: 100px;
+}
+
+.mini3{
+    position: absolute;
+    top: 140px;
+    left: 454px;
+    width: 150px;
+    height: 100px;
+}
+
+.pmini{
+    margin: 0;
+    color: white;
+    position: absolute;
+    top: 7px;
+    left: 454px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+
+.pmini2{
+    margin: 0;
+    color: white;
+    position: absolute;
+    top: 270px;
+    left: 454px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+
+#span1{
+    color: yellow;
+}
+#span2{
+    color: blue;
+}
+#span3{
+    color: red;
+}
+#span4{
+    color: green;
+}
+
+footer {
+    position: absolute;
+    top: 1220px;
+    background-color:rgba(0, 0, 0, 0.7);
+    width: 1500px;
+    height: 100px;
+}
+
+footer p{
+    display: inline;
+    margin: 0;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+}
+
+footer p:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 1px 10px rgb(234, 0, 255);
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    padding: 3px;
+}
+
+footer section{
+    position: absolute;
+    left: 1130px;
+    top: 40px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer a:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 1px 10px rgb(234, 0, 255);
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    padding: 3px;
+
+}
+
+footer label{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
